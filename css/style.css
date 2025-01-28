@@ -194,6 +194,9 @@ h2::after {
 }
 
 .btn-download {
+		display: flex;
+		align-items: center;
+		justify-content: center;
     background: linear-gradient(45deg, #3498db, #2ecc71);
 		text-align: center;
     color: white;
@@ -4756,14 +4759,6 @@ h2::after {
     justify-content: center;
 }
 
-.download-form input {
-    padding: 15px 20px;
-    border-radius: 10px;
-    border: none;
-    width: 300px;
-    font-size: 16px;
-}
-
 .btn-download {
     background: #ff8c00;
     color: #fff;
@@ -5161,7 +5156,7 @@ h2::after {
     padding: 15px 20px;
     border-radius: 10px;
     border: none;
-    width: 300px;
+    width: 100%;
     font-size: 16px;
 }
 
