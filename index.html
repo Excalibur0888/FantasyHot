@@ -35,7 +35,7 @@
             </nav>
         </div>
     </header>
-
+	<main>
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
@@ -65,7 +65,13 @@
                         <p>Enter your phone number to get the download link</p>
                         <div class="phone-input">
                             <input type="tel" id="phone" placeholder="Your Phone Number" pattern="[0-9]{10}" required>
-                            <button type="submit" class="btn-send">Send</button>
+														<div class="agreement-box">
+																<label class="checkbox-label">
+																		<input type="checkbox" required>
+																		<span>I agree with <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a></span>
+																</label>
+														</div>
+														<button type="submit" class="btn-send">Send</button>
                         </div>
                         <div class="form-message" id="formMessage"></div>
                         <div class="download-features">
@@ -439,7 +445,7 @@
             </div>
         </div>
     </section>
-
+	</main>
     <!-- Footer -->
     <footer class="footer">
         <div class="container">

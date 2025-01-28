@@ -255,7 +255,7 @@ h2::after {
 }
 
 .phone-input input {
-    flex-grow: 1;
+    width: 100%;
     padding: 15px;
     border: none;
     border-radius: 10px;
@@ -337,26 +337,6 @@ h2::after {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-}
-
-.cricket-icon {
-    background-image: url('../img/cricket-icon.jpg');
-}
-
-.football-icon {
-    background-image: url('../img/football-icon.jpg');
-}
-
-.basketball-icon {
-    background-image: url('../img/basketball-icon.jpg');
-}
-
-.kabaddi-icon {
-    background-image: url('../img/kabaddi-icon.jpg');
-}
-
-.aviator-icon {
-    background-image: url('../img/aviator-icon.jpg');
 }
 
 .category-card h3 {
@@ -2609,10 +2589,6 @@ h2::after {
     background-position: center;
 }
 
-.skill-development {
-    background-image: url('../img/skill-development.jpg');
-}
-
 .post-content {
     padding: 20px;
 }
@@ -2732,7 +2708,7 @@ h2::after {
 /* Newsletter */
 .newsletter {
     padding: 80px 0;
-    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('../img/newsletter-bg.jpg');
+    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9));
     background-size: cover;
     background-position: center;
     color: white;
@@ -2989,7 +2965,7 @@ h2::after {
 /* Terms and Privacy Hero Sections */
 .terms-hero,
 .privacy-hero {
-    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('../img/legal-bg.jpg');
+    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9));
     background-size: cover;
     background-position: center;
     color: white;
@@ -3100,7 +3076,7 @@ h2::after {
 
 /* Aviator Specific Styles */
 .aviator-hero {
-    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('../img/aviator-hero.jpg');
+    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9));
 }
 
 /* Game Modes Section */
@@ -3277,7 +3253,7 @@ h2::after {
 
 /* Plinko Specific Styles */
 .plinko-hero {
-    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('../img/plinko-hero.jpg');
+    background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9));
 }
 
 /* Game Levels Section */
@@ -5088,40 +5064,6 @@ h2::after {
     color: #ff4500;
 }
 
-.checkbox-label {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    color: #fff;
-    margin: 10px 0;
-    transition: color 0.3s ease;
-}
-
-.checkbox-label a {
-    text-decoration: none;
-		color: #d609ff;
-}
-
-.checkbox-label:hover {
-    color: #ff4500;
-}
-
-.checkbox-label input[type="checkbox"] {
-    width: 18px;
-    height: 18px;
-    border: 2px solid #ddd;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.checkbox-label input[type="checkbox"]:checked {
-    background-color: #ff4500;
-    border-color: #ff4500;
-}
-
 
 /* Boost Cards */
 .boost-section {
@@ -5373,38 +5315,6 @@ h2::after {
 }
 
 /* Fantasy Games Backgrounds */
-.aviator-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/games/aviator-bg.jpg');
-}
-
-.plinko-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/games/plinko-bg.jpg');
-}
-
-.laser-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/games/laser-bg.jpg');
-}
-
-.f101-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/games/101f-bg.jpg');
-}
-
-/* Game Hero Sections */
-.aviator-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/games/aviator-hero.jpg') no-repeat center/cover;
-}
-
-.plinko-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/games/plinko-hero.jpg') no-repeat center/cover;
-}
-
-.laser-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/games/laser-hero.jpg') no-repeat center/cover;
-}
-
-.f101-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/games/101f-hero.jpg') no-repeat center/cover;
-}
 
 /* Download Sections */
 .aviator-download {
@@ -6963,61 +6873,6 @@ font-size: 1rem;
 	}
 }
 
-/* 101f Styles */
-.f101-hero-new {
-    position: relative;
-    background: url('../img/101f-bg.jpg') no-repeat center;
-    background-size: cover;
-    padding: 120px 0;
-    color: #fff;
-}
-
-.f101-hero-content {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-}
-
-.f101-stats {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    margin-top: 40px;
-}
-
-.f101-stat {
-    text-align: center;
-}
-
-.f101-stat .stat-value {
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    background: linear-gradient(45deg, #00f2fe, #4facfe);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.f101-features {
-    padding: 80px 0;
-    background: #111;
-}
-
-.f101-features-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.f101-feature-card {
-    background: linear-gradient(145deg, #1a1a1a, #222);
-    padding: 30px;
-    border-radius: 20px;
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-
 /* Tournament Section Styles */
 .tournaments {
     padding: 80px 0;
@@ -7380,6 +7235,7 @@ font-size: 1rem;
 
 .checkbox-label {
 	display: flex;
+	justify-content: flex-start;
 	align-items: flex-start;
 	gap: 10px;
 	cursor: pointer;

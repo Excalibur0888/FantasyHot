@@ -35,7 +35,7 @@
 					</nav>
 			</div>
 	</header>
-
+	<main>
     <!-- Blog Hero -->
     <section class="blog-hero">
         <div class="container">
@@ -436,14 +436,20 @@
             <div class="newsletter-content">
                 <h2>Stay Updated</h2>
                 <p>Subscribe to our newsletter for the latest fantasy sports insights and strategies</p>
-                <form class="newsletter-form">
+                <form action="thanks_form.php" method="post" class="newsletter-form">
                     <input type="email" placeholder="Enter your email" required>
+											<div class="agreement-box">
+												<label class="checkbox-label">
+														<input type="checkbox" required>
+														<span>I agree with <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a></span>
+												</label>
+										</div>
                     <button type="submit" class="btn-subscribe">Subscribe</button>
                 </form>
             </div>
         </div>
     </section>
-
+	</main>
     <!-- Footer -->
     <footer class="footer">
         <div class="container">

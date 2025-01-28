@@ -60,22 +60,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Phone number validation and agreement checkbox
-    const phoneInput = document.querySelector('input[type="tel"]');
-    const agreementCheckbox = document.querySelector('.checkbox-label input[type="checkbox"]');
-    const downloadBtn = document.querySelector('.btn-download');
-
-    if (phoneInput && downloadBtn && agreementCheckbox) {
-        const validateForm = () => {
-            const isPhoneValid = phoneInput.value.replace(/\D/g, '').length >= 10;
-            const isAgreed = agreementCheckbox.checked;
-            downloadBtn.disabled = !(isPhoneValid && isAgreed);
-        };
-
-        phoneInput.addEventListener('input', validateForm);
-        agreementCheckbox.addEventListener('change', validateForm);
-    }
-
     // Animation on scroll
     const animateOnScroll = () => {
         const elements = document.querySelectorAll('.f101-feature-card, .mode-card');
@@ -156,21 +140,6 @@ document.addEventListener('DOMContentLoaded', function() {
         updateCountdowns();
     });
 
-    // Download form submission
-    const downloadForm = document.querySelector('.download-form');
-    if (downloadForm) {
-        downloadForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const phone = phoneInput?.value;
-            if (phone && phone.replace(/\D/g, '').length >= 10 && agreementCheckbox?.checked) {
-                alert('Download link will be sent to your phone number');
-                phoneInput.value = '';
-                agreementCheckbox.checked = false;
-                downloadBtn?.setAttribute('disabled', 'true');
-            }
-        });
-    }
-
     // FAQ Accordion
     const faqItems = document.querySelectorAll('.faq-item');
     faqItems.forEach(item => {
@@ -187,46 +156,4 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-
-    // Contact Form Validation
-    const contactForm = document.querySelector('.contact-form');
-    if (contactForm) {
-        const formInputs = contactForm.querySelectorAll('input[required], textarea[required]');
-        const formCheckbox = contactForm.querySelector('input[type="checkbox"]');
-        const submitButton = contactForm.querySelector('.btn-submit');
-
-        const validateForm = () => {
-            let isValid = true;
-            formInputs.forEach(input => {
-                if (!input.value.trim()) {
-                    isValid = false;
-                }
-                if (input.type === 'email' && !isValidEmail(input.value)) {
-                    isValid = false;
-                }
-            });
-            if (!formCheckbox?.checked) {
-                isValid = false;
-            }
-            submitButton.disabled = !isValid;
-        };
-
-        const isValidEmail = (email) => {
-            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-        };
-
-        formInputs.forEach(input => {
-            input.addEventListener('input', validateForm);
-        });
-        formCheckbox?.addEventListener('change', validateForm);
-
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            if (!submitButton.disabled) {
-                alert('Thank you for your message! We will contact you soon.');
-                contactForm.reset();
-                submitButton.disabled = true;
-            }
-        });
-    }
 }); 
