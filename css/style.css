@@ -370,7 +370,7 @@ h2::after {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .hero {
         padding: 60px 0;
     }
@@ -879,7 +879,7 @@ h2::after {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .game-description .description-stats {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -991,7 +991,7 @@ h2::after {
 }
 
 /* Responsive Design for Game Pages */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .game-hero h1 {
         font-size: 36px;
     }
@@ -1019,7 +1019,7 @@ h2::after {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .description-text {
@@ -1168,7 +1168,7 @@ h2::after {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .description-text h3 {
         font-size: 28px;
     }
@@ -1371,7 +1371,7 @@ h2::after {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .football-hero h1 {
         font-size: 32px;
     }
@@ -1664,7 +1664,7 @@ h2::after {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .basketball-hero h1 {
         font-size: 32px;
     }
@@ -2097,7 +2097,7 @@ h2::after {
     display: block;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
     .fantasy-games-grid {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -2508,7 +2508,7 @@ h2::after {
 }
 
 /* Responsive Adjustments */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .boost-section h2,
     .premium-players h2 {
         font-size: 2rem;
@@ -2766,7 +2766,7 @@ h2::after {
 }
 
 /* Responsive Design for Blog */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .blog-hero-content h1 {
         font-size: 36px;
     }
@@ -2820,7 +2820,7 @@ h2::after {
     margin-right: auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .contact-hero {
         padding: 80px 0;
     }
@@ -2950,7 +2950,7 @@ h2::after {
 }
 
 /* Responsive Design for Contact Page */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .contact-hero-content h1 {
         font-size: 36px;
     }
@@ -3055,7 +3055,7 @@ h2::after {
 }
 
 /* Responsive Design for Terms and Privacy Pages */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .terms-hero-content h1,
     .privacy-hero-content h1 {
         font-size: 36px;
@@ -3232,7 +3232,7 @@ h2::after {
 }
 
 /* Responsive Design for Aviator Page */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .modes-grid {
         grid-template-columns: 1fr;
     }
@@ -3372,7 +3372,7 @@ h2::after {
 }
 
 /* Responsive Design for Plinko Page */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .levels-grid {
         grid-template-columns: 1fr;
     }
@@ -3692,7 +3692,7 @@ h2::after {
 	}
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
 	.laser-title-box h1 {
 			font-size: 3rem;
 	}
@@ -4096,7 +4096,7 @@ h2::after {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .lead {
         font-size: 18px;
     }
@@ -4275,7 +4275,7 @@ h2::after {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .skill-text h3 {
         font-size: 24px;
     }
@@ -4462,7 +4462,7 @@ h2::after {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .formations-grid {
         grid-template-columns: 1fr;
     }
@@ -4654,7 +4654,7 @@ h2::after {
 	}
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
 	.basketball-hero h1 {
 			font-size: 32px;
 	}
@@ -4798,7 +4798,7 @@ h2::after {
 }
 
 /* Additional Responsive Styles */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .boost-grid,
     .players-grid {
         grid-template-columns: 1fr;
@@ -4969,7 +4969,7 @@ h2::after {
     margin-top: 15px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .tracking-grid {
         grid-template-columns: 1fr;
     }
@@ -5204,7 +5204,7 @@ h2::after {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .kabaddi-hero h1 {
         font-size: 32px;
     }
@@ -5462,7 +5462,7 @@ h2::after {
     margin-bottom: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .game-highlights {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -5513,8 +5513,8 @@ h2::after {
 }
 
 .kabaddi-stat-circle {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(255, 69, 0, 0.5);
@@ -5671,7 +5671,7 @@ h2::after {
     color: rgba(255, 255, 255, 0.7);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .kabaddi-content-grid {
         grid-template-columns: 1fr;
     }
@@ -5721,6 +5721,12 @@ h2::after {
     gap: 40px;
     align-items: center;
     margin-bottom: 60px;
+}
+
+@media (max-width: 992px) {
+    .football-description .description-main {
+        grid-template-columns: 1fr;
+    }
 }
 
 .football-description .description-text h3 {
@@ -5800,7 +5806,7 @@ h2::after {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .football-features {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -5952,7 +5958,7 @@ h2::after {
     margin: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .category-image {
         height: 200px;
     }
@@ -6060,7 +6066,7 @@ h2::after {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .burger-menu {
         display: block;
     }
@@ -6121,7 +6127,7 @@ h2::after {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .blog-tabs {
         padding: 40px 0;
     }
@@ -6456,7 +6462,7 @@ h2::after {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
 	.plinko-title-box h1 {
 			font-size: 3rem;
 	}
@@ -6827,7 +6833,7 @@ font-size: 1rem;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
 	.aviator-title-box h1 {
 			font-size: 3rem;
 	}
@@ -7341,7 +7347,7 @@ font-size: 1rem;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .f101-title-box h1 {
         font-size: 3rem;
     }
@@ -7391,7 +7397,7 @@ font-size: 1rem;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .plinko-title-box h1,
     .aviator-title-box h1,
     .f101-title-box h1 {
@@ -7568,7 +7574,7 @@ font-size: 1rem;
     color: #4facfe;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .scoring-grid {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -7595,7 +7601,7 @@ font-size: 1rem;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .feature-highlights {
         padding: 40px 0;
     }
@@ -7632,3 +7638,35 @@ font-size: 1rem;
         margin-bottom: 8px;
     }
 }
+
+.disclaimer {
+    background: #00f2fe;
+    padding: 30px 0;
+}
+
+.disclaimer .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.disclaimer p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+		color: #000;
+    line-height: 1.6;
+    text-align: center;
+}
+
+@media (max-width: 1100px) {
+    .disclaimer {
+        padding: 20px 0;
+        margin-top: 30px;
+    }
+    
+    .disclaimer p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+}
+
